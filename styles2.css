@@ -150,6 +150,12 @@
       filter: drop-shadow(0 0 5px #00ffcc);
     }
 
+    .card-title,
+    .card-title p{
+      text-decoration: none;
+      color: #00ff00;
+    }
+
 
     @keyframes dive {
       0%, 100% { transform: translateY(0); opacity: 1; }
